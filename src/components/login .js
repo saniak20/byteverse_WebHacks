@@ -1,8 +1,8 @@
 import "./login.css";
 
-const MacBookPro16 = () => {
+const login = () => {
   return (
-    <div className="macbook-pro-16-1">
+    <div className="login-1">
       <div className="div">
         <div className="rectangle-parent">
           <div className="group-child" />
@@ -39,7 +39,7 @@ const MacBookPro16 = () => {
           <span className="sign-in">Sign in</span>
         </div>
       </div>
-      <img className="macbook-pro-16-1-child" alt="" src="/rectangle-32.svg" />
+      <img className="login-1-child" alt="" src="/rectangle-32.svg" />
       <img className="woww-1-icon" alt="" src="/woww-1@2x.png" />
       <div className="div1">
         <div className="rectangle-parent">
@@ -81,4 +81,4 @@ const MacBookPro16 = () => {
   );
 };
 
-export default MacBookPro16;
+export default login;

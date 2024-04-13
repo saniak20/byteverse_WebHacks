@@ -177,7 +177,7 @@
   height: 21px;
 }
 .div,
-.macbook-pro-16-1-child {
+.login-1-child {
   position: absolute;
   border-radius: var(--br-11xl);
 }
@@ -188,7 +188,7 @@
   width: 2714px;
   height: 1458px;
 }
-.macbook-pro-16-1-child {
+.login-1-child {
   top: 1893px;
   left: 3938px;
   width: 589px;
@@ -294,7 +294,7 @@
   width: 403px;
   height: 420px;
 }
-.macbook-pro-16-1 {
+.login-1 {
   width: 100%;
   position: relative;
   background-color: rgba(255, 255, 255, 0.6);
