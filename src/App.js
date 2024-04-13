@@ -1,16 +1,33 @@
-import { FunctionComponent } from "react";
+import React,{ FunctionComponent } from "react";
+import ReactDOM from "react-dom";
 import styles from "./App.module.css";
+import  '../src/components/login ';
+import{
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+}from "react-router-dom";
 
 const App= () => {
   return (
     <div width="50px" height="50px" background-color="green" className={styles.App2}>
       <div className={styles.App2Child} />
       <div className={styles.App2Item} />
-      <img
+      <img id="wheat"
         className={styles.App2Inner}
         alt=""
-        src="/Wheat.png"
+        src="/Wheat.jpg"
+        style={{width:"200px",height:"150px"}}
       />
+      <Router>
+      <Switch>
+          
+          <Route path="/">
+            <Home />
+          </Route>
+        </Switch>
+        </Router>
       <div className={styles.cropcareconnect} >CropCareConnect</div>
       <div className={styles.rentalServices}>
         <p className={styles.rental}>Rental</p>

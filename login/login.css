@@ -1,0 +1,308 @@
+.group-child,
+.group-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius:1px;
+  background-color:green;
+  border: 2px;
+  box-sizing: border-box;
+  width: 344px;
+  height: 49px;
+}
+.group-item {
+  top: 73px;
+}
+.rectangle-parent {
+  position: absolute;
+  top: 109px;
+  left: 29px;
+  width: 344px;
+  height: 122px;
+}
+.password,
+.sign-up {
+  position: absolute;
+  display: inline-block;
+}
+.sign-up {
+  height: 13.45%;
+  width: 95.09%;
+  top: 8.57%;
+  left: 9.18%;
+  font-size: var(--font-size-17xl);
+  font-weight: 600;
+}
+.password {
+  height: 100%;
+  width: 49.1%;
+  top: 0;
+  left: 0.67%;
+}
+.forgot,
+.password {
+  white-space: pre-wrap;
+}
+.span {
+  color: var(--color-black);
+}
+.forgot-password {
+  position: absolute;
+  height: 100%;
+  width: 56.02%;
+  top: 7.57%;
+  left: 43.08%;
+  font-size: var(--font-size-4xl);
+  display: none;
+  color: var(--color-darkslateblue);
+}
+.component-14 {
+  position: absolute;
+  height: 50.06%;
+  width: 68.96%;
+  top: 49.94%;
+  right: 31.04%;
+  bottom: 0;
+  left: 0;
+}
+.forgot-password1,
+.password1 {
+  position: absolute;
+  height: 100%;
+  width: 49.11%;
+  top: 0;
+  left: 0.67%;
+  display: inline-block;
+}
+.forgot-password1 {
+  width: 56.03%;
+  top: 7.57%;
+  left: 43.08%;
+  font-size: var(--font-size-4xl);
+  display: none;
+  color: var(--color-darkslateblue);
+}
+.component-15 {
+  position: absolute;
+  height: 50.06%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 49.94%;
+  left: 0;
+}
+.component-14-parent {
+  position: absolute;
+  height: 21.36%;
+  width: 88.59%;
+  top: 27.86%;
+  right: 0.5%;
+  bottom: 50.78%;
+  left: 10.92%;
+  font-size: var(--font-size-5xl);
+  color: var(--color-darkgray);
+}
+.component-11-child {
+  position: absolute;
+  height: 99.3%;
+  width: 101.68%;
+  top: -1.9%;
+  right: -0.84%;
+  bottom: 2.6%;
+  left: -0.84%;
+  border-radius: var(--br-mini);
+  background-color: var(--color-mediumslateblue-200);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 3px solid var(--color-blue);
+  box-sizing: border-box;
+}
+.login {
+  position: absolute;
+  height: 80.29%;
+  width: 53.39%;
+  top: 19.71%;
+  left: 31.06%;
+  display: none;
+}
+.component-11 {
+  position: absolute;
+  height: 10.82%;
+  top: 66.91%;
+  bottom: 22.27%;
+  left: calc(50% - 184px);
+  border-radius: var(--br-41xl);
+  background-color: var(--color-cornflowerblue);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-mediumslateblue-200);
+  box-sizing: border-box;
+  width: 357px;
+  font-size: var(--font-size-11xl);
+}
+.create-account {
+  position: absolute;
+  top: 288px;
+  left: calc(50% - 93px);
+  color: var(--color-lavenderblush);
+  display: inline-block;
+  width: 174px;
+  height: 31px;
+}
+.lock-icon {
+  position: absolute;
+  top: 193px;
+  left: 310px;
+  width: 29px;
+  height: 28px;
+  object-fit: cover;
+}
+.child {
+  position: absolute;
+  top: 352.5px;
+  left: 17.5px;
+  background-color: var(--color-gainsboro);
+  border-top: 1px solid var(--color-darkgray);
+  box-sizing: border-box;
+  width: 370px;
+  height: 1px;
+}
+.sign-in {
+  font-weight: 600;
+}
+.already-have-an-container {
+  position: absolute;
+  top: 369px;
+  left: 17px;
+  display: inline-block;
+  width: 403px;
+  height: 21px;
+}
+.div,
+.macbook-pro-16-1-child {
+  position: absolute;
+  border-radius: var(--br-11xl);
+}
+.div {
+  top: 1075px;
+  left: 2882px;
+  background-color: var(--color-white);
+  width: 2714px;
+  height: 1458px;
+}
+.macbook-pro-16-1-child {
+  top: 1893px;
+  left: 3938px;
+  width: 589px;
+  height: 100px;
+}
+.woww-1-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1728px;
+  height: 1117px;
+  object-fit: cover;
+}
+.password2 {
+  position: absolute;
+  height: 100%;
+  width: 49.11%;
+  top: 0;
+  left: 0.65%;
+  white-space: pre-wrap;
+  display: inline-block;
+}
+.forgot-password2 {
+  position: absolute;
+  height: 100%;
+  width: 56.01%;
+  top: 7.57%;
+  left: 43.1%;
+  font-size: 100;
+  display: none;
+  color: yellow;
+}
+.password3 {
+  position: absolute;
+  height: 100%;
+  width: 49.1%;
+  top: 0;
+  left: 0.67%;
+  display: inline-block;
+}
+.component-14-group {
+  position: absolute;
+  height: 21.36%;
+  width: 88.59%;
+  top: 27.86%;
+  right: 0.5%;
+  bottom: 50.79%;
+  left: 10.92%;
+  font-size: 100;
+  color: yellow;
+}
+.component-11-item {
+  position: absolute;
+  height: 108.57%;
+  width: 101.68%;
+  top: -6.59%;
+  right: -0.84%;
+  bottom: -1.98%;
+  left: -0.84%;
+  border-radius: var(--br-mini);
+  background-color: var(--color-mediumslateblue-200);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 3px solid var(--color-blue);
+  box-sizing: border-box;
+}
+.login1 {
+  position: absolute;
+  height: 80.22%;
+  width: 53.39%;
+  top: 19.78%;
+  left: 31.06%;
+  display: none;
+}
+.component-111 {
+  position: absolute;
+  height: 10.83%;
+  top: 66.9%;
+  bottom: 22.26%;
+  left: calc(50% - 183.5px);
+  border-radius: var(--br-41xl);
+  background-color: var(--color-cornflowerblue);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-mediumslateblue-200);
+  box-sizing: border-box;
+  width: 357px;
+  font-size: var(--font-size-11xl);
+}
+.create-account1 {
+  position: absolute;
+  top: 288px;
+  left: calc(50% - 92.5px);
+  color: var(--color-lavenderblush);
+  display: inline-block;
+  width: 174px;
+  height: 31px;
+}
+.div1 {
+  position: absolute;
+  top: 378px;
+  left: 663px;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-white);
+  width: 403px;
+  height: 420px;
+}
+.macbook-pro-16-1 {
+  width: 100%;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.6);
+  height: 1117px;
+  overflow: hidden;
+  opacity: 0.5;
+  text-align: left;
+  font-size: var(--font-size-4xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
