@@ -3,15 +3,15 @@ import styles from "./App.module.css";
 
 const App= () => {
   return (
-    <div className={styles.App2}>
+    <div width="50px" height="50px" background-color="green" className={styles.App2}>
       <div className={styles.App2Child} />
       <div className={styles.App2Item} />
       <img
         className={styles.App2Inner}
         alt=""
-        src="/rectangle-14@2x.png"
+        src="/Wheat.png"
       />
-      <div className={styles.cropcareconnect}>CropCareConnect</div>
+      <div className={styles.cropcareconnect} >CropCareConnect</div>
       <div className={styles.rentalServices}>
         <p className={styles.rental}>Rental</p>
         <p className={styles.rental}>Services</p>
@@ -30,7 +30,7 @@ const App= () => {
         <p className={styles.rental}>Contact us</p>
       </div>
       <div className={styles.component2}>
-        <img className={styles.vectorIcon} alt="" src="/vector.svg" />
+        <img className={styles.vectorIcon} alt="" src="/Wheat.svg" />
         <div className={styles.loginRegister}>Login | Register</div>
         <div className={styles.component2Child} />
         <i className={styles.yourCart}>Your cart</i>
@@ -44,10 +44,10 @@ const App= () => {
         <img className={styles.component1Inner} alt="" src="/polygon-1.svg" />
         <div className={styles.lineDiv} />
       </div>
-      <div className={styles.component3}>
+      <div  className={styles.component3}>
         <i className={styles.introducingTheNewContainer}>
-          <p className={styles.introducingTheNew}>{`Introducing the New `}</p>
-          <p className={styles.introducingTheNew}>Dell Laptop Series</p>
+          <p className={styles.introducingTheNew}>{`Pesticides `}</p>
+          <p className={styles.introducingTheNew}>Related to Wheat</p>
           <p className={styles.rental}>&nbsp;</p>
           <p className={styles.rental}>&nbsp;</p>
           <p className={styles.rental}>&nbsp;</p>
