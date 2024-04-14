@@ -38,7 +38,7 @@
   height: 100px;
 }
 
-.contactUs,
+/* .contactUs,
 .home,
 .library,
 .news {
@@ -51,6 +51,10 @@
   display: inline-block;
   width: 217px;
   height: 54px;
+} */
+.nav{
+  display:flex;
+  
 }
 .contactUs,
 .library,
@@ -127,7 +131,7 @@
   width: 93.82%;
   right: 6.18%;
   left: 0;
-  border-radius: 2px;
+  border-radius: 10px;
   background-color:green;
   border: 3px solid black;
   box-sizing: border-box;
@@ -196,12 +200,12 @@
   left: 387px;
   width: 841px;
   height: 63px;
-  font-size: var(--font-size-xl);
-  color: var(--color-gray-200);
+  font-size: 200;
+  color: green;
 }
 .introducingTheNew {
   margin: 0;
-  font-size: var(--font-size-51xl);
+  font-size: 200;
 }
 .introducingTheNewContainer {
   position: absolute;
@@ -214,7 +218,7 @@
 }
 .blankLine3 {
   margin: 0;
-  font-size: var(--font-size-5xl);
+  font-size: 200;
 }
 .introducingTheNewContainer1 {
   position: absolute;
@@ -224,7 +228,7 @@
   left: 0;
   display: none;
   font-weight: 700;
-  font-size: var(--font-size-51xl);
+  font-size: 100;
 }
 .unmatchedPerformanceInContainer {
   position: absolute;
@@ -232,7 +236,7 @@
   width: 75.71%;
   top: 44.03%;
   left: 0;
-  font-size: var(--font-size-16xl);
+  font-size: 200;
   display: inline-block;
   font-weight: 600;
 }
@@ -244,8 +248,8 @@
   right: 0.24%;
   bottom: 0;
   left: 0;
-  border-radius: var(--br-6xl);
-  background-color: var(--color-forestgreen-200);
+  border-radius: 3px;
+  background-color: green;
 }
 .shopNow {
   position: absolute;
@@ -265,8 +269,8 @@
   right: 44.94%;
   bottom: 12.72%;
   left: 0;
-  font-size: var(--font-size-18xl);
-  color: var(--color-white);
+  font-size: 100;
+  color: yellow;
 }
 .component3 {
   position: absolute;
@@ -274,7 +278,7 @@
   left: 169px;
   width: 770px;
   height: 511px;
-  font-size: var(--font-size-5xl);
+  font-size: 100;
 }
 .crops,
 .pesticidesRelatedToContainer,
@@ -301,7 +305,7 @@
   left: 1.31%;
 }
 .laptops {
-  width: 11.5%;
+  width: 5%;
   left: 0;
 }
 .cameras,
@@ -569,42 +573,11 @@
   height: 104px;
 }
 .tractor {
-  font-weight: 500;
+  font-weight: 25;
   color: var(--color-darkgray);
 }
-.headphones1,
-.smartphones1,
-.tablets1,
-.watches {
-  position: absolute;
-  height: 23.81%;
-  width: 90.42%;
-  left: 9.58%;
-  display: none;
-}
-.smartphones1 {
-  top: 0;
-  font-size: var(--font-size-31xl);
-  text-shadow: 1px 0 0#dcd5d5, 0 1px 0#dcd5d5, -1px 0 0#dcd5d5, 0-1px 0#dcd5d5;
-  color: var(--color-black);
-}
-.headphones1,
-.tablets1,
-.watches {
-  top: 21.43%;
-  font-weight: 600;
-}
-.tablets1,
-.watches {
-  top: 39.68%;
-  left: 7.28%;
-}
-.tablets1 {
-  top: 76.19%;
-  left: 0;
-  font-size: var(--font-size-21xl);
-  white-space: pre-wrap;
-}
+
+
 .shovel {
   color: var(--color-darkgray);
 }
@@ -751,11 +724,7 @@
   top: 89.75%;
   left: 24.82%;
 }
-.shovel1,
-.sickle1,
-.tractor2 {
-  font-size: var(--font-size-21xl);
-}
+
 .shovel1 {
   position: absolute;
   height: 1.77%;
@@ -767,7 +736,7 @@
   display: inline-block;
 }
 .tractor2 {
-  color: var(--color-darkgray);
+  color: yellow;
 }
 .tractor1 {
   position: absolute;
@@ -777,5 +746,17 @@
   text-align: center;
   display: inline-block;
   text-shadow: 1px 0 0#dcd5d5, 0 1px 0#dcd5d5, -1px 0 0#dcd5d5, 0-1px 0#dcd5d5;
-  font-size: var(--font-size-31xl);
+  font-size: 100px;
+}
+.xyz{
+  float:right;
+  margin-right: 5px;
+  border-color: aqua;
+  width:100px;
+  height:100px;
+}
+.rani{
+  width:100px;
+  height: 100px;
+  float: inline-end;
 }

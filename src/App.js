@@ -1,41 +1,28 @@
 import React,{ FunctionComponent } from "react";
-import ReactDOM from "react-dom";
 import styles from "./App.module.css";
-import  '../src/components/login ';
-import{
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-}from "react-router-dom";
+import   './components/login ';
+import Header from './myComponents/Header';
 
 const App= () => {
-  return (
+  return (<>
+    
     <div width="50px" height="50px" background-color="green" className={styles.App2}>
       <div className={styles.App2Child} />
       <div className={styles.App2Item} />
-      <img id="wheat"
-        className={styles.App2Inner}
-        alt=""
-        src="/Wheat.jpg"
-        style={{width:"200px",height:"150px"}}
-      />
-      <Router>
-      <Switch>
-          
-          <Route path="/">
-            <Home />
-          </Route>
-        </Switch>
-        </Router>
+      <div id="xy" >
+      <img className={styles.xyz} src={process.env.PUBLIC_URL+'/images/Wheat.jpg'}
+      alt=""></img>
+      </div>
       <div className={styles.cropcareconnect} >CropCareConnect</div>
       <div className={styles.rentalServices}>
-        <p className={styles.rental}>Rental</p>
-        <p className={styles.rental}>Services</p>
+        {/* <p className={styles.rental}>Rental</p>
+        <p className={styles.rental}>Services</p> */}
       </div>
+      <Header/>
       <div className={styles.rectangleDiv} />
       <div className={styles.rectangleDiv} />
       <div className={styles.App2Child2} />
+      <div className="nav">
       <div className={styles.home}>
         <p className={styles.rental}>Home</p>
       </div>
@@ -45,10 +32,12 @@ const App= () => {
       </div>
       <div className={styles.contactUs}>
         <p className={styles.rental}>Contact us</p>
-      </div>
+      </div></div>
       <div className={styles.component2}>
-        <img className={styles.vectorIcon} alt="" src="/Wheat.svg" />
-        <div className={styles.loginRegister}>Login | Register</div>
+        <img className={styles.vectorIcon} 
+        src={process.env.PUBLIC_URL+'/images/paddy.jpg'} alt=""></img>
+        <div className={styles.loginRegister}>
+        <a href="src\components\login .js" >Login | Register</a></div>
         <div className={styles.component2Child} />
         <i className={styles.yourCart}>Your cart</i>
       </div>
@@ -90,8 +79,10 @@ const App= () => {
       </i>
       <i className={styles.popularTools}>Popular Tools</i>
       <i className={styles.crops}>Crops</i>
+      <img className={styles.rani} src={process.env.PUBLIC_URL+'/images/Sugarcane.jpg'}/>
       <div className={styles.component9}>
         <i className={styles.laptops}>Tractor</i>
+        <img className={styles.abc} src={process.env.PUBLIC_URL+'/images/tractor.jpg'}/>
         <i className={styles.smartphones}> Shovel</i>
         <i className={styles.cameras} />
         <i className={styles.headphones}>Headphones</i>
@@ -102,8 +93,8 @@ const App= () => {
       <i className={styles.tobacco}>Tobacco</i>
       <i className={styles.maize}>Maize</i>
       <i className={styles.paddy}>Paddy</i>
-      <img className={styles.component5Icon} alt="" src="/component-5@2x.png" />
-      <img className={styles.component4Icon} alt="" src="/component-4.svg" />
+      <img className={styles.component5Icon} alt="" src="components\Wheat.jpg" />
+      <img className={styles.component4Icon} alt="" src="src\Wheat.jpg" />
       <div className={styles.freeShippingParent}>
         <div className={styles.freeShipping}>
           <span className={styles.freeShipping1}>Free Shipping</span>
@@ -249,7 +240,7 @@ const App= () => {
         <span className={styles.freeShipping1}>{`     `}</span>
         <span className={styles.tractor2}>Tractor</span>
       </div>
-    </div>
+    </div></>
   );
 };
 
