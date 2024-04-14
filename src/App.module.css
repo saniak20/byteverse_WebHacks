@@ -34,11 +34,12 @@
   top: 226px;
   left: 0;
   background-color: green;
-  width: 1754px;
-  height: 100px;
+  width: 100%;
+  height: 63px;
+  margin-top:100px
 }
 
-/* .contactUs,
+.contactUs,
 .home,
 .library,
 .news {
@@ -51,11 +52,21 @@
   display: inline-block;
   width: 217px;
   height: 54px;
-} */
+  margin-top: 20px;
+}
 .nav{
   display:flex;
   
+  
+  
 }
+#navbar{
+  
+  
+    height: 60px;
+    background-color: green;
+}
+
 .contactUs,
 .library,
 .news {
@@ -220,6 +231,12 @@
   margin: 0;
   font-size: 200;
 }
+#navbar {
+  
+  background-color: green;
+  width: 841px;
+  height: 63px;
+}
 .introducingTheNewContainer1 {
   position: absolute;
   height: 38.75%;
@@ -230,16 +247,7 @@
   font-weight: 700;
   font-size: 100;
 }
-.unmatchedPerformanceInContainer {
-  position: absolute;
-  height: 18.2%;
-  width: 75.71%;
-  top: 44.03%;
-  left: 0;
-  font-size: 200;
-  display: inline-block;
-  font-weight: 600;
-}
+
 .groupChild {
   position: absolute;
   height: 100%;
@@ -263,7 +271,7 @@
 }
 .rectangleParent {
   position: absolute;
-  height: 20.16%;
+  height: 15.16%;
   width: 55.06%;
   top: 67.12%;
   right: 44.94%;
@@ -291,6 +299,8 @@
   display: inline-block;
   font-weight: 700;
   font-size: var(--font-size-51xl);
+  margin-top:100px;
+  align-content: center;
 }
 .crops,
 .popularTools {
@@ -304,58 +314,7 @@
   top: 58.73%;
   left: 1.31%;
 }
-.laptops {
-  width: 5%;
-  left: 0;
-}
-.cameras,
-.headphones,
-.laptops,
-.smartWatches,
-.smartphones,
-.tablets {
-  position: absolute;
-  height: 91.3%;
-  top: 0;
-  display: inline-block;
-  font-weight: 500;
-}
-.smartphones {
-  width: 19.75%;
-  left: 12.69%;
-  white-space: pre-wrap;
-}
-.cameras,
-.headphones,
-.smartWatches,
-.tablets {
-  width: 16.22%;
-  left: 33.64%;
-}
-.headphones,
-.smartWatches,
-.tablets {
-  width: 21.17%;
-  left: 48.83%;
-  display: none;
-}
-.smartWatches,
-.tablets {
-  height: 100%;
-  width: 21.57%;
-  left: 78.43%;
-}
-.tablets {
-  width: 11.95%;
-  left: 67.05%;
-}
-.component9 {
-  position: absolute;
-  top: 1850px;
-  left: 43px;
-  width: 1757px;
-  height: 69px;
-}
+
 .maize,
 .paddy,
 .tobacco,
@@ -735,10 +694,10 @@
   text-align: center;
   display: inline-block;
 }
-.tractor2 {
-  color: yellow;
-}
-.tractor1 {
+/* .tractor2 {
+  color: yellow; */
+/* } */
+/* .tractor1 {
   position: absolute;
   width: 26.8%;
   top: 90.87%;
@@ -746,8 +705,8 @@
   text-align: center;
   display: inline-block;
   text-shadow: 1px 0 0#dcd5d5, 0 1px 0#dcd5d5, -1px 0 0#dcd5d5, 0-1px 0#dcd5d5;
-  font-size: 100px;
-}
+  font-size: 100px; */
+/* } */
 .xyz{
   float:right;
   margin-right: 5px;
@@ -759,4 +718,8 @@
   width:100px;
   height: 100px;
   float: inline-end;
+}
+.abc{
+  float: right;
+  margin-left: 45px;
 }

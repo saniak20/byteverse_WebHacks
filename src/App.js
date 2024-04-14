@@ -4,7 +4,8 @@ import   './components/login ';
 import Header from './myComponents/Header';
 
 const App= () => {
-  return (<>
+  return (
+  <>
     
     <div width="50px" height="50px" background-color="green" className={styles.App2}>
       <div className={styles.App2Child} />
@@ -13,16 +14,26 @@ const App= () => {
       <img className={styles.xyz} src={process.env.PUBLIC_URL+'/images/Wheat.jpg'}
       alt=""></img>
       </div>
-      <div className={styles.cropcareconnect} >CropCareConnect</div>
+      {/* <div className={styles.cropcareconnect} >CropCareConnect</div>
       <div className={styles.rentalServices}>
-        {/* <p className={styles.rental}>Rental</p>
-        <p className={styles.rental}>Services</p> */}
-      </div>
-      <Header/>
+        <p className={styles.rental}>Rental</p>
+        <p className={styles.rental}>Services</p>
+      </div> */}
+      
+      <div id="navbar">
+        <a id="logo">cropcare connect</a>
+        <div class="nav">
+        <div><a href="jdhs" id="Home">Home</a>
+        <a href="mkdjs">Rental service</a>
+        <a href="njfhs">Shop nearby</a>
+        <a href="njfhs">Shop nearby</a>
+        </div>
+      </div></div>
       <div className={styles.rectangleDiv} />
       <div className={styles.rectangleDiv} />
       <div className={styles.App2Child2} />
       <div className="nav">
+        
       <div className={styles.home}>
         <p className={styles.rental}>Home</p>
       </div>
@@ -32,6 +43,7 @@ const App= () => {
       </div>
       <div className={styles.contactUs}>
         <p className={styles.rental}>Contact us</p>
+        
       </div></div>
       <div className={styles.component2}>
         <img className={styles.vectorIcon} 
@@ -71,18 +83,18 @@ const App= () => {
           <i className={styles.shopNow}>Shop Now</i>
         </div>
       </div>
-      <i className={styles.pesticidesRelatedToContainer}>
-        <p className={styles.rental}>{`Pesticides related to `}</p>
+      <div className={styles.pesticidesRelatedToContainer}>
+        <p className={styles.rental-1}>{`Pesticides related to `}</p>
         <p className={styles.rental}>Wheat</p>
-        <p className={styles.rental}>{` `}</p>
+        
         <p className={styles.blankLine3}>&nbsp;</p>
-      </i>
+      </div>
       <i className={styles.popularTools}>Popular Tools</i>
       <i className={styles.crops}>Crops</i>
       <img className={styles.rani} src={process.env.PUBLIC_URL+'/images/Sugarcane.jpg'}/>
       <div className={styles.component9}>
         <i className={styles.laptops}>Tractor</i>
-        <img className={styles.abc} src={process.env.PUBLIC_URL+'/images/tractor.jpg'}/>
+        <img className={styles.abc } src={process.env.PUBLIC_URL+'/images/tractor.jpg'}/>
         <i className={styles.smartphones}> Shovel</i>
         <i className={styles.cameras} />
         <i className={styles.headphones}>Headphones</i>
@@ -115,7 +127,7 @@ const App= () => {
         <img
           className={styles.onlineSupportIcon}
           alt=""
-          src="/online-support@2x.png"
+          src="public\iconn.jpg"
         />
       </div>
       <div className={styles.component6}>
@@ -126,7 +138,7 @@ const App= () => {
           src="/delivery-time@2x.png"
         />
       </div>
-      <img className={styles.rectangleIcon} alt="" src="/rectangle-10@2x.png" />
+      <img className={styles.rectangleIcon} alt="" src="public\iconn.jpg" />
       <img
         className={styles.App2Child3}
         alt=""
@@ -140,12 +152,12 @@ const App= () => {
       <img
         className={styles.App2Child5}
         alt=""
-        src="/rectangle-13@2x.png"
+        src="public\iconn.jpg"
       />
       <img
         className={styles.App2Child6}
         alt=""
-        src="/rectangle-15@2x.png"
+        src="public\iconn.jpg"
       />
       <img
         className={styles.App2Child7}
@@ -213,7 +225,7 @@ const App= () => {
       </div>
       <div className={styles.moneyGuaranteeParent}>
         <div className={styles.moneyGuarantee}>Money guarantee</div>
-        <img className={styles.walletIcon} alt="" src="/wallet@2x.png" />
+        <img className={styles.walletIcon} alt="" src="public\iconn.jpg" />
       </div>
       <div className={styles.contactUsAboutContainer}>
         <p className={styles.rental}>Contact Us</p>
@@ -228,7 +240,7 @@ const App= () => {
       <img
         className={styles.App2Child14}
         alt=""
-        src="/rectangle-26@2x.png"
+        src="public\iconn.jpg"
       />
       <div className={styles.seedMachine1}>Seed machine</div>
       <div className={styles.sickle1}>Sickle</div>
